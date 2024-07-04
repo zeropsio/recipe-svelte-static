@@ -1,0 +1,29 @@
+{
+	"name": "recipe-sveltekit-static",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"prepare": "svelte-kit sync",
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^3.0.2",
+		"@sveltejs/kit": "^2.5.17",
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.38",
+		"prettier": "^2.8.4",
+		"prettier-plugin-svelte": "^3.2.5",
+		"svelte": "^4.2.18",
+		"tailwindcss": "^3.4.3",
+		"typescript": "^4.9.5",
+		"vite": "^5.3.1"
+	},
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"prettier": "^3.3.2"
+	}
+}

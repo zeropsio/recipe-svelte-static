@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./lib/assets/fonts/OpenSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./lib/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./lib/assets/fonts/OpenSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./lib/assets/fonts/OpenSans-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./lib/assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./lib/assets/fonts/OpenSans-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #1A1A1A;
+}
+
+.deploybutton {
+  background-color: #00b1a3;
+  padding-left: 7.25rem;
+  padding-right: 7.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 300ms;
+
+}
+
+.deploybutton:hover {
+  background-color: #3cbdb2;
+}
+
+.primarybutton {
+  background-color: #E5704E;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #ddd;
+  transition: 300ms;
+}
+
+.primarybutton:hover {
+  background-color: #D16849;
+}
+
+.discordbutton {
+  background-color: #D16849;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #ddd;
+  transition: 300ms;
+}
+
+.discordbutton:hover {
+  background-color: #E5704E;
+}
+
+.zeropsbutton {
+  background-color: #BD6044;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #ddd;
+  transition: 300ms;
+}
+.zeropsbutton:hover {
+  background-color: #D16849;
+}
+
+.gradient-text {
+  display: inline-block;
+  background-image: linear-gradient(to right, #fc9879 0%, #E5704E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-bottom: 0.4em; /* Small padding to avoid clipping descenders */
+  background-position: 0%;
+  @apply text-6xl;
+}
+
+.gradient-text:hover {
+  background-image: linear-gradient(to right, #f8835f 0%, #E5704E 100%);	
+}
+
+h1 {
+  color: #ccc;
+}
+
+p {
+  color: #ccc;
+}
+
+
+.link {
+  color: #E5704E;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: #fc9879;
+  text-decoration: underline;
+}
+
+.filelink {
+  color: #E5704E;
+  text-decoration: underline;
+}
+
+.filelink:hover {
+  color: #fc9879;
+}
+
+.zerops:hover {
+  color: #E5704E;
+}

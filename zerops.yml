@@ -1,0 +1,17 @@
+zerops:
+  - setup: app
+    build:
+      base: nodejs@20
+      buildCommands:
+        - pnpm i
+        - pnpm build
+      deployFiles:
+        - build/~
+    run:
+      base: static
+      
+  # you can ignore this, it's used
+  # for a version of recipe with 
+  # both static and ssr versions
+  - setup: staticapp
+    extends: app      
